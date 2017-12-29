@@ -64,15 +64,15 @@ You can use a 1x1 convolutional layer to reduce nH, nW, and nC.
 You can use a pooling layer to reduce nH, nW, and nC.
 You can use a 1x1 convolutional layer to reduce nC but not nH, nW.
 
-Ans: You can use a pooling layer to reduce nH, nW, but not nC. + You can use a 1x1 convolutional layer to reduce nC but not nH, nW.
+Ans: You can use a pooling layer to reduce nH, nW, and nC. + You can use a 1x1 convolutional layer to reduce nC but not nH, nW.
 
 9. Which ones of the following statements on Inception Networks are true? (Check all that apply.)
 
 Inception blocks usually use 1x1 convolutions to reduce the input data volume’s size before applying 3x3 and 5x5 convolutions.
-Ans: wrong, they do it at the same time
+Ans: ?
 
 Inception networks incorporates a variety of network architectures (similar to dropout, which randomly chooses a network architecture on each step) and thus has a similar regularizing effect as dropout.
-Ans: ?
+Ans: wrong
 
 Making an inception network deeper (by stacking more inception blocks together) should not hurt training set performance.
 Ans: not necessarily
@@ -83,7 +83,7 @@ Ans: correct
 10. Which of the following are common reasons for using open-source implementations of ConvNets (both the model and/or weights)? Check all that apply.
 
 A model trained for one computer vision task can usually be used to perform data augmentation even for a different computer vision task.
-Ans: correct
+Ans: ?
 
 Parameters trained for one computer vision task are often useful as pretraining for other computer vision tasks.
 Ans: correct
